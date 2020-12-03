@@ -1,4 +1,7 @@
+[toc]
+
 ## <font color=gray>1. Linux操作系统简介</font>
+
 Linux系统是基于Unix以网络为核心的设计思想，是一个性能稳定的多用户操作系统，Linux能运行各种工具软件、应用程序及网络协议，它支持安装在32位和64位CPU硬件上。
 
 Linux即Linus's unix，在1991年的10月5日，还在读大学的Linus Torvalds写出了Linux内核。
@@ -10,8 +13,10 @@ Linux操作系统应用领域越来越广泛，尤其是近年来Linux在服务�
 4. 安全性高
 5. 内核小
 6. 应用领域广泛
----
+
 ## <font color=gray>2. Linux操作系统发行版本</font>
+### <font color=darkgray>2.1. 版本区别</font>
+
 Linux操作系统主流发行版本包括：Red Hat Linux、CentOS、Ubuntu、SUSE Linux、Fedora Linux等，具体发行版本区别如下：
 
 #### <font color=darkgray>2.1.1 Red Hat Linux</font>
@@ -218,7 +223,7 @@ http://vault.centos.org/
 
 ## <font color=gray>4. xshell连接及配置</font>
 
-#### <font color=darkgray>4.1 三种连接xhsell的方式</font>
+### <font color=darkgray>4.1 三种连接xhsell的方式</font>
 
 1. 第一种：终端直接使用ssh命令连接
 
@@ -242,7 +247,7 @@ http://vault.centos.org/
    ![47](..\images\day1\47.png)
    ![48](..\images\day1\48.png)
    
-#### <font color=darkgray>4.2 关闭selinux/firewalld</font>
+### <font color=darkgray>4.2 关闭selinux/firewalld</font>
 
 ```bash
 # 查看selinux状态
@@ -260,7 +265,7 @@ systemctl stop firewalld
 systemctl disable firewalld
 ```
 
-#### <font color=darkgray>4.3 拓展命令</font>
+### <font color=darkgray>4.3 拓展命令</font>
 
 ```bash
 # 安装网络工具包
