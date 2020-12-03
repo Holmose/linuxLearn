@@ -1,5 +1,3 @@
-[toc]
-
 ## <font color=gray>1. Linux操作系统简介</font>
 
 Linux系统是基于Unix以网络为核心的设计思想，是一个性能稳定的多用户操作系统，Linux能运行各种工具软件、应用程序及网络协议，它支持安装在32位和64位CPU硬件上。
@@ -54,7 +52,7 @@ Linux内核版本命名在不同的时期有其不同的命名规范，其中在
 
 从Linux内核1994年发布1.0发布到目前主流3.X版本，5.X也是稳定版本。
 
-#### <font color=gray>查看Linux操作系统内核</font>
+#### <font color=gray>2.2.1 查看Linux操作系统内核</font>
 ```
 uname -a
 Linux VM-0-10-centos 3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
